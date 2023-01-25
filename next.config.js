@@ -8,6 +8,11 @@ const nextConfig = {
         hostname: '1000logos.net',
         port: '',
       },
+      {
+        protocol: 'https',
+        hostname: 'lh3.googleusercontent.com',
+        port: '',
+      },
     ],
   }
 }

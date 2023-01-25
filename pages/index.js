@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Navbar from '/components/Navbar'
 import Search from '/components/Search'
-import Login from '/components/loginTest'
+// import Login from '/components/loginTest'
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <Navbar/>
       <Search/>
-      <Login/>
+      {/* <Login/> */}
     </>
   )
 }
