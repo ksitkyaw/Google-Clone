@@ -1,5 +1,5 @@
 import React from 'react'
-import { useSession, signIn } from 'next-auth/react'
+import { useSession, signIn, signOut } from 'next-auth/react'
 import Image from 'next/image'
 
 export default function User() {
@@ -8,17 +8,18 @@ export default function User() {
         return (
             <>
             <Image
-            className="rounded-full"
+            className="rounded-full cursor-pointer"
             src={session.user.image}
             width={50}
             height={3}
             style={{objectFit: 'cover'}}
             alt='profile pic'
+            onClick={() => signOut()}
             />
             </>
         )
     }
   return (
-    <button className="border bg-blue-500 p-3" onClick={() => signIn()}>Sign in</button>
+    <button className="border bg-blue-500 p-2 rounded-lg text-white" onClick={() => signIn()}>Sign in</button>
   )
 }

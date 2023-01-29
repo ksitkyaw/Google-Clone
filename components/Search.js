@@ -1,10 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 import { MagnifyingGlassIcon, MicrophoneIcon }  from "@heroicons/react/24/outline"
+import Footer from './Footer'
 
 export default function Search() {
   return (
-    <div className='w-6/12 m-auto'>
+    <div className='w-8/12 m-auto'>
         <Image 
             className='mt-[15vh] mx-auto'
             src='https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png'
@@ -12,22 +13,26 @@ export default function Search() {
             height={120}
             alt='google logo'
         />
-        <form className='flex'>
+        <form className='flex ml-10'>
           {/*below icon need z-index value because it comes before input element and so input covers its content
           which is not in the case of microphone icon which comes after input element */}
-          <MagnifyingGlassIcon className='w-5 mr-[-30px]  z-10'/>
+          <MagnifyingGlassIcon className='w-5 mr-[-50px]  z-10'/>
           <input
-          className='w-full border border-gray-700 p-1 pl-[50px] rounded-md'
+          className='shadow-md focus:outline-none w-full border border-slate-200 p-3 pl-[70px] rounded-full'
           placeholder='Google Search...'
           type="text"
           id='search'
           name='search'
           required
           />
-          <MicrophoneIcon className='w-5 ml-[-30px]'/>
+          <MicrophoneIcon className='w-5 ml-[-50px]'/>
 
         </form>
-    
+        <div className='flex justify-evenly space-x-3 mt-6'>
+          <button className='bg-blue-400 p-2 rounded-md'>Google Search</button>
+          <button className='bg-blue-400 p-2 rounded-md'>I'm feeling lucky</button>
+        </div>
+        <Footer/>
     </div>
   )
 }
