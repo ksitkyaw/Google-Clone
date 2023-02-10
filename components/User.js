@@ -10,8 +10,8 @@ export default function User() {
             <Image
             className="rounded-full cursor-pointer"
             src={session.user.image}
-            width={50}
-            height={3}
+            width={35}
+            height={35}
             style={{objectFit: 'cover'}}
             alt='profile pic'
             onClick={() => signOut()}

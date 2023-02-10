@@ -1,7 +1,12 @@
 import React from 'react'
+import SresultBody from '../components/SresultBody'
+import SresultHeader from '../components/SresultHeader'
 
 export default function search() {
   return (
-    <h1>searching</h1>
+    <div className='my-2'>
+      <SresultHeader/>
+      <SresultBody/>
+    </div>
   )
 }

@@ -21,7 +21,7 @@ export default function Search() {
             className='mt-[15vh] mx-auto'
             src='https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png'
             width={300}
-            height={120}
+            height={3}
             alt='google logo'
         />
         <form className='flex ml-10'>
@@ -41,8 +41,8 @@ export default function Search() {
 
         </form>
         <div className='flex justify-evenly space-x-3 mt-6'>
-          <button onClick={search} className='bg-blue-400 p-2 rounded-md'>Google Search</button>
-          <button className='bg-blue-400 p-2 rounded-md'>I'm feeling lucky</button>
+          <button onClick={search} className='bg-blue-500 p-2 rounded-md text-white'>Google Search</button>
+          <button className='bg-blue-500 p-2 rounded-md text-white'>I'm feeling lucky</button>
         </div>
         <Footer/>
     </div>
