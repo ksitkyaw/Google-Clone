@@ -12,7 +12,7 @@ export default function Search() {
   const search = (e) => {
     e.preventDefault()
     const term = searchRef.current.value.trim()
-    router.push(`search/?term=${term}`)
+    router.push(`search/?term=${term}&searchType=`)
   }
 
   return (

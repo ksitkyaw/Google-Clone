@@ -1,11 +1,24 @@
 import { MagnifyingGlassIcon, VideoCameraIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
-import React from 'react'
+import { useRouter } from 'next/router'
+import React, { useState } from 'react'
 import SearchInput from './SearchInput'
 import User from './User'
 
-export default function SresultHeader() {
-  return (
+export default function SresultHeader({term}) {
+    const [imageSearch, setImageSearch] = useState(false)
+    const router = useRouter()
+
+    const webSearchHandle = () => {
+        setImageSearch(false)
+        router.push(`search/?term=${term}&searchType=`)
+    }
+    
+    const imgSearchHandle = () => {
+        setImageSearch(true)
+        router.push(`search/?term=${term}&searchType=image`)
+    }
+    return (
     <header>
         <div className='flex justify-between items-center px-5'>
             <Image
@@ -24,8 +37,8 @@ export default function SresultHeader() {
         the below code is imperfect for that functionality */}
         <div className='border-b border-slate-200 pb-2 text-slate-500'>
             <ul className='flex ml-36 mt-14 space-x-8'>
-                <li className='flex'><MagnifyingGlassIcon className='w-5 mr-2'/><span>All</span></li>
-                <li className='flex'><VideoCameraIcon className='w-5 mr-2'/><span>Images</span></li>
+                <li className={`flex cursor-pointer ${imageSearch ? '' : 'text-blue-600'}`} onClick={webSearchHandle}><MagnifyingGlassIcon className='w-5 mr-2'/><span>All</span></li>
+                <li className={`flex cursor-pointer  ${imageSearch ? 'text-blue-600' : ''}`} onClick={imgSearchHandle}><VideoCameraIcon className='w-5 mr-2'/><span>Images</span></li>
             </ul>
             <div></div>
         </div>
