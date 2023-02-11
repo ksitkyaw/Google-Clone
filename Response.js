@@ -2692,3 +2692,254 @@ export default {
         }
     ]
 }
+
+export const ImageObj = {
+    "results": {
+        "kind": "customsearch#search",
+        "url": {
+            "type": "application/json",
+            "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+        },
+        "queries": {
+            "request": [
+                {
+                    "title": "Google Custom Search - arsenal",
+                    "totalResults": "9630000000",
+                    "searchTerms": "arsenal",
+                    "count": 10,
+                    "startIndex": 1,
+                    "inputEncoding": "utf8",
+                    "outputEncoding": "utf8",
+                    "safe": "off",
+                    "cx": "f14d7a4545ea64b14",
+                    "searchType": "image"
+                }
+            ],
+            "nextPage": [
+                {
+                    "title": "Google Custom Search - arsenal",
+                    "totalResults": "9630000000",
+                    "searchTerms": "arsenal",
+                    "count": 10,
+                    "startIndex": 11,
+                    "inputEncoding": "utf8",
+                    "outputEncoding": "utf8",
+                    "safe": "off",
+                    "cx": "f14d7a4545ea64b14",
+                    "searchType": "image"
+                }
+            ]
+        },
+        "context": {
+            "title": "g-clone"
+        },
+        "searchInformation": {
+            "searchTime": 0.522972,
+            "formattedSearchTime": "0.52",
+            "totalResults": "9630000000",
+            "formattedTotalResults": "9,630,000,000"
+        },
+        "items": [
+            {
+                "kind": "customsearch#result",
+                "title": "Arsenal F.C. - Wikipedia",
+                "htmlTitle": "<b>Arsenal</b> F.C. - Wikipedia",
+                "link": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png",
+                "displayLink": "en.wikipedia.org",
+                "snippet": "Arsenal F.C. - Wikipedia",
+                "htmlSnippet": "<b>Arsenal</b> F.C. - Wikipedia",
+                "mime": "image/png",
+                "fileFormat": "image/png",
+                "image": {
+                    "contextLink": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
+                    "height": 1410,
+                    "width": 1200,
+                    "byteSize": 213946,
+                    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDjjqxL225ocGBz7f4MehtF22LZMs0w2n6ZPhQDJKlhg_kC9Zyz0KyP03b&s",
+                    "thumbnailHeight": 150,
+                    "thumbnailWidth": 128
+                }
+            },
+            {
+                "kind": "customsearch#result",
+                "title": "Arsenal beat Liverpool to return to top of Premier League ...",
+                "htmlTitle": "<b>Arsenal</b> beat Liverpool to return to top of Premier League ...",
+                "link": "https://www.aljazeera.com/wp-content/uploads/2022/10/2022-10-09T153520Z_1487904255_UP1EIA917AUNM_RTRMADP_3_SOCCER-ENGLAND-ARS-LIV-REPORT.jpg?resize=1800%2C1800",
+                "displayLink": "www.aljazeera.com",
+                "snippet": "Arsenal beat Liverpool to return to top of Premier League ...",
+                "htmlSnippet": "<b>Arsenal</b> beat Liverpool to return to top of Premier League ...",
+                "mime": "image/jpeg",
+                "fileFormat": "image/jpeg",
+                "image": {
+                    "contextLink": "https://www.aljazeera.com/sports/2022/10/9/arsenal-defeat-liverpool-3-2-in-premier-league-thriller",
+                    "height": 1800,
+                    "width": 1800,
+                    "byteSize": 695513,
+                    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6lI5MudUVoHjh2-m1XebYN8dalhgLmjW3x65BFq459n9ea0mUUv40fz0&s",
+                    "thumbnailHeight": 150,
+                    "thumbnailWidth": 150
+                }
+            },
+            {
+                "kind": "customsearch#result",
+                "title": "Arsenal F.C. - Wikipedia",
+                "htmlTitle": "<b>Arsenal</b> F.C. - Wikipedia",
+                "link": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/640px-Arsenal_FC.svg.png",
+                "displayLink": "en.wikipedia.org",
+                "snippet": "Arsenal F.C. - Wikipedia",
+                "htmlSnippet": "<b>Arsenal</b> F.C. - Wikipedia",
+                "mime": "image/png",
+                "fileFormat": "image/png",
+                "image": {
+                    "contextLink": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
+                    "height": 752,
+                    "width": 640,
+                    "byteSize": 114673,
+                    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUvbFJqiGf5-GGOkxTIPLY8uMeMo5-P3hRIESvf6iB69PWqGETYRS4wzk&s",
+                    "thumbnailHeight": 141,
+                    "thumbnailWidth": 120
+                }
+            },
+            {
+                "kind": "customsearch#result",
+                "title": "Leandro Trossard joins on long-term contract | News | Arsenal.com",
+                "htmlTitle": "Leandro Trossard joins on long-term contract | News | <b>Arsenal</b>.com",
+                "link": "https://www.arsenal.com/sites/default/files/styles/desktop_16x9/public/images/trossard-signs.png?itok=1WFJv7L_",
+                "displayLink": "www.arsenal.com",
+                "snippet": "Leandro Trossard joins on long-term contract | News | Arsenal.com",
+                "htmlSnippet": "Leandro Trossard joins on long-term contract | News | <b>Arsenal</b>.com",
+                "mime": "image/png",
+                "fileFormat": "image/png",
+                "image": {
+                    "contextLink": "https://www.arsenal.com/news/leandro-trossard-joins-long-term-contract",
+                    "height": 900,
+                    "width": 1600,
+                    "byteSize": 340103,
+                    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS19UHbbZZSgWdidHSMIIgZfddogFFgaS23b51bRE7qcKIEYhIqYg-fFQ&s",
+                    "thumbnailHeight": 84,
+                    "thumbnailWidth": 150
+                }
+            },
+            {
+                "kind": "customsearch#result",
+                "title": "Arsenal F.C. - Wikipedia",
+                "htmlTitle": "<b>Arsenal</b> F.C. - Wikipedia",
+                "link": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+                "displayLink": "en.wikipedia.org",
+                "snippet": "Arsenal F.C. - Wikipedia",
+                "htmlSnippet": "<b>Arsenal</b> F.C. - Wikipedia",
+                "mime": "image/svg+xml",
+                "fileFormat": "image/svg+xml",
+                "image": {
+                    "contextLink": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
+                    "height": 343,
+                    "width": 292,
+                    "byteSize": 14267,
+                    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8tBOjYcIdtgEFttrNzsO2l570aPf9eWw5PaoBJgAmFYrwEbCdV20L&s",
+                    "thumbnailHeight": 120,
+                    "thumbnailWidth": 102
+                }
+            },
+            {
+                "kind": "customsearch#result",
+                "title": "The weekend Arsenal officially became Premier League title ...",
+                "htmlTitle": "The weekend <b>Arsenal</b> officially became Premier League title ...",
+                "link": "https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg):focal(1249x263:1251x261)/origin-imgresizer.eurosport.com/2023/01/15/3526768-71882528-2560-1440.jpg",
+                "displayLink": "www.eurosport.com",
+                "snippet": "The weekend Arsenal officially became Premier League title ...",
+                "htmlSnippet": "The weekend <b>Arsenal</b> officially became Premier League title ...",
+                "mime": "image/jpeg",
+                "fileFormat": "image/jpeg",
+                "image": {
+                    "contextLink": "https://www.eurosport.com/football/premier-league/2022-2023/the-weekend-arsenal-officially-became-premier-league-title-favourites-after-double-derby-delight-the_sto9321682/story.shtml",
+                    "height": 675,
+                    "width": 1200,
+                    "byteSize": 124425,
+                    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKS_4nY48ZR7X_vKfEE421X2UivAS3Xdi0zShv7OGrtQNmRFZb8-mQB-A&s",
+                    "thumbnailHeight": 84,
+                    "thumbnailWidth": 150
+                }
+            },
+            {
+                "kind": "customsearch#result",
+                "title": "Arsenal's Player of the Month for January 2023 | Nketiah, Odegaard ...",
+                "htmlTitle": "<b>Arsenal&#39;s</b> Player of the Month for January 2023 | Nketiah, Odegaard ...",
+                "link": "https://i.ytimg.com/vi/f-6zQhITCmo/maxresdefault.jpg",
+                "displayLink": "www.youtube.com",
+                "snippet": "Arsenal's Player of the Month for January 2023 | Nketiah, Odegaard ...",
+                "htmlSnippet": "<b>Arsenal&#39;s</b> Player of the Month for January 2023 | Nketiah, Odegaard ...",
+                "mime": "image/jpeg",
+                "fileFormat": "image/jpeg",
+                "image": {
+                    "contextLink": "https://www.youtube.com/watch?v=f-6zQhITCmo",
+                    "height": 720,
+                    "width": 1280,
+                    "byteSize": 127429,
+                    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbXsWK57Gwx3ZjbyF9aZFcDv_3pi--yCgqXcqBIVFnh_apx5mndTxapKU&s",
+                    "thumbnailHeight": 84,
+                    "thumbnailWidth": 150
+                }
+            },
+            {
+                "kind": "customsearch#result",
+                "title": "The Arsenal Board | The Club | News | Arsenal.com",
+                "htmlTitle": "The <b>Arsenal</b> Board | The Club | News | <b>Arsenal</b>.com",
+                "link": "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/crest.jpg?itok=wS2VssZH",
+                "displayLink": "www.arsenal.com",
+                "snippet": "The Arsenal Board | The Club | News | Arsenal.com",
+                "htmlSnippet": "The <b>Arsenal</b> Board | The Club | News | <b>Arsenal</b>.com",
+                "mime": "image/jpeg",
+                "fileFormat": "image/jpeg",
+                "image": {
+                    "contextLink": "https://www.arsenal.com/the-club/corporate-info/the-arsenal-board",
+                    "height": 588,
+                    "width": 1045,
+                    "byteSize": 42145,
+                    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHW2VJ0rYxudCznn-cTKYcecQoUncsCKfQaFDFazWMnWtFdiXNysQu92Q&s",
+                    "thumbnailHeight": 84,
+                    "thumbnailWidth": 150
+                }
+            },
+            {
+                "kind": "customsearch#result",
+                "title": "Arsenal F.C. - Wikipedia",
+                "htmlTitle": "<b>Arsenal</b> F.C. - Wikipedia",
+                "link": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/800px-Arsenal_FC.svg.png",
+                "displayLink": "en.wikipedia.org",
+                "snippet": "Arsenal F.C. - Wikipedia",
+                "htmlSnippet": "<b>Arsenal</b> F.C. - Wikipedia",
+                "mime": "image/png",
+                "fileFormat": "image/png",
+                "image": {
+                    "contextLink": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
+                    "height": 940,
+                    "width": 800,
+                    "byteSize": 137940,
+                    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9I1i3KEmPIk4A7xbWuj0eMVyrx4J9cN09sa5ReQ1MIOJjpgwHbKPdNg&s",
+                    "thumbnailHeight": 148,
+                    "thumbnailWidth": 126
+                }
+            },
+            {
+                "kind": "customsearch#result",
+                "title": "Leandro Trossard joins on long-term contract | News | Arsenal.com",
+                "htmlTitle": "Leandro Trossard joins on long-term contract | News | <b>Arsenal</b>.com",
+                "link": "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/streamamg/0_e8ynrny8.jpeg?itok=cFzBWYrN",
+                "displayLink": "www.arsenal.com",
+                "snippet": "Leandro Trossard joins on long-term contract | News | Arsenal.com",
+                "htmlSnippet": "Leandro Trossard joins on long-term contract | News | <b>Arsenal</b>.com",
+                "mime": "image/jpeg",
+                "fileFormat": "image/jpeg",
+                "image": {
+                    "contextLink": "https://www.arsenal.com/news/leandro-trossard-joins-long-term-contract",
+                    "height": 588,
+                    "width": 1045,
+                    "byteSize": 85953,
+                    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_W492SU3WrbsSze1p-j9XVpr9oWOhmkkWcN1IvOinWKzrisU55MT6xw&s",
+                    "thumbnailHeight": 84,
+                    "thumbnailWidth": 150
+                }
+            }
+        ]
+    }
+}
